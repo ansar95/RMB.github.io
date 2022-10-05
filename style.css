@@ -1,0 +1,19 @@
+.hamburger-active > span:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+.hamburger-active > span:nth-child(2) {
+  scale: 0;
+  
+}
+.hamburger-active > span:nth-child(3) {
+  transform: rotate(-45deg);
+ 
+}
+
+.navbar-fixed{
+  position: fixed;
+  background-color:white;
+  backdrop-filter: blur(5px);
+  border-radius: 1%;
+}
